@@ -1,0 +1,73 @@
+body{
+        background-color: rgb(202, 12, 12);
+        color: #6e0000;
+        
+       font-family: "Rum Raisin", sans-serif;
+       .rum-raisin-regular {
+        font-family: "Rum Raisin", serif;
+        font-weight: 200;
+        font-style: normal;
+        font-size: 20px
+      }
+      
+        ;
+
+}
+
+header {
+        border-bottom: solid 2px rgb(196, 20, 20);
+        padding: 15px;
+        font-size: 31px;
+        color: rgb(255, 255, 255);
+    }
+
+    section{
+        background-color: rgb(167, 8, 8);
+        padding-bottom: 80px;
+	padding-top: 80px;
+	display: flex;
+	justify-content: center;
+    }
+
+    .chamada-texto {
+        margin-right: 5%;
+        font-size: medium;
+    }
+
+}
+
+h1 {
+    
+    font-size: 40px
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(214, 16, 9);
+}
+
+.categoria h2 {
+    color: rgb(85, 2, 2);
+
+}
